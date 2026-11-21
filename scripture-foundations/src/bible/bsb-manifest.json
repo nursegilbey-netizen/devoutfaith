@@ -1,0 +1,342 @@
+{
+ "id": "bsb",
+ "abbreviation": "BSB",
+ "name": "Berean Standard Bible",
+ "license": "Public domain (dedicated by BSB Publishing, April 30, 2023).",
+ "source": "https://github.com/BSB-publishing/bsb2usfm — BSB_usfm.zip (official release)",
+ "edition": "USFM release; headings, footnotes and cross-references removed; Psalm superscriptions treated as headings",
+ "importedAt": "2026-11-21T16:53:51.132Z",
+ "sourceSha256": "14c375c7e33de23fe36131cd0604f54776a3babb2cbe1aa6c5243635b4a63bfc",
+ "outputSha256": "eaa104221a3840554a5f10d2d989492eb0023b69e6d7df2979ded949f22e09ba",
+ "books": 66,
+ "chapters": 1189,
+ "verses": 31102,
+ "textVerses": 31086,
+ "omittedVerses": [
+  "MAT.17.21",
+  "MAT.18.11",
+  "MAT.23.14",
+  "MRK.7.16",
+  "MRK.9.44",
+  "MRK.9.46",
+  "MRK.11.26",
+  "MRK.15.28",
+  "LUK.17.36",
+  "LUK.23.17",
+  "JHN.5.4",
+  "ACT.8.37",
+  "ACT.15.34",
+  "ACT.24.7",
+  "ACT.28.29",
+  "ROM.16.24"
+ ],
+ "versificationNotes": [],
+ "crossCheck": {
+  "source": "scrollmapper/bible_databases BSB.json",
+  "sha256": "cec3c644088a8ef4a50cf1e2de035f79d8825f394625d116bb7ee7e1d57739c9",
+  "compared": 31086,
+  "differing": 1106,
+  "samples": [
+   {
+    "ref": "GEN 1:21",
+    "primary": "So God created the great sea creatures and every living thing that moves, with which the waters teemed according to their kinds, and every winged bird after its kind. And God saw that it was good.",
+    "secondary": "So God created the great sea creatures and every living thing that moves, with which the waters teemed according to their kinds, and every bird of flight after its kind. And God saw that it was good."
+   },
+   {
+    "ref": "GEN 2:11",
+    "primary": "The name of the first river is the Pishon; it winds through the whole land of Havilah, where there is gold.",
+    "secondary": "The name of the first river is Pishon; it winds through the whole land of Havilah, where there is gold."
+   },
+   {
+    "ref": "GEN 2:13",
+    "primary": "The name of the second river is the Gihon; it winds through the whole land of Cush.",
+    "secondary": "The name of the second river is Gihon; it winds through the whole land of Cush."
+   },
+   {
+    "ref": "GEN 2:14",
+    "primary": "The name of the third river is the Tigris; it runs along the east side of Assyria. And the fourth river is the Euphrates.",
+    "secondary": "The name of the third river is Hiddekel; it runs along the east side of Assyria. And the fourth river is the Euphrates."
+   },
+   {
+    "ref": "GEN 3:4",
+    "primary": "“You will not surely die,” the serpent told the woman.",
+    "secondary": "“You will not surely die,” the serpent told her."
+   },
+   {
+    "ref": "GEN 7:19",
+    "primary": "Finally, the waters completely prevailed upon the earth, so that all the high mountains under all the heavens were covered.",
+    "secondary": "Finally, the waters completely inundated the earth, so that all the high mountains under all the heavens were covered."
+   },
+   {
+    "ref": "GEN 13:8",
+    "primary": "So Abram said to Lot, “Please let there be no contention between you and me, or between your herdsmen and my herdsmen. After all, we are kinsmen.",
+    "secondary": "So Abram said to Lot, “Please let there be no contention between you and me, or between your herdsmen and my herdsmen. After all, we are brothers."
+   },
+   {
+    "ref": "GEN 28:16",
+    "primary": "When Jacob woke up, he said, “Surely the LORD is in this place, and I was unaware of it.”",
+    "secondary": "When Jacob woke up, he thought, “Surely the LORD is in this place, and I was unaware of it.”"
+   },
+   {
+    "ref": "GEN 31:13",
+    "primary": "I am the God of Bethel, where you anointed the pillar and made a solemn vow to Me. Now get up, leave this land at once, and return to your native land.’”",
+    "secondary": "I am the God of Bethel, where you anointed the pillar and made a solemn vow to Me. Now get up and leave this land at once, and return to your native land.’”"
+   },
+   {
+    "ref": "GEN 32:32",
+    "primary": "Therefore to this day the Israelites do not eat the tendon attached to the socket of the hip, because the socket of Jacob’s hip was struck near that tendon.",
+    "secondary": "Therefore to this day the Israelites do not eat the tendon which is at the socket of the hip, because the socket of Jacob’s hip was struck near that tendon."
+   },
+   {
+    "ref": "GEN 35:8",
+    "primary": "Now Deborah, Rebekah’s nurse, died and was buried under the oak below Bethel. So Jacob named it Allon-bacuth.",
+    "secondary": "Now Deborah, Rebekah’s nurse, died and was buried under the oak below Bethel. So Jacob named it Allon-bachuth."
+   },
+   {
+    "ref": "EXO 2:1",
+    "primary": "Now a man of the house of Levi married a Levite woman,",
+    "secondary": "Now a man of the house of Levi married a daughter of Levi,"
+   },
+   {
+    "ref": "EXO 7:16",
+    "primary": "Then say to him, ‘The LORD, the God of the Hebrews, has sent me to tell you: Let My people go, so that they may worship Me in the wilderness. But until now you have not listened.",
+    "secondary": "Then say to him, ‘The LORD, the God of the Hebrews, has sent me to tell you: Let My people go, so that they may worship Me in the wilderness. But you have not listened until now."
+   },
+   {
+    "ref": "EXO 7:19",
+    "primary": "And the LORD said to Moses, “Tell Aaron, ‘Take your staff and stretch out your hand over the waters of Egypt— over their rivers and canals and ponds and all the reservoirs— that they may become blood.’ There will be blood throughout the land of Egypt, even in the vessels of wood and stone.”",
+    "secondary": "And the LORD said to Moses, “Tell Aaron, ‘Take your staff and stretch out your hand over the waters of Egypt—over their rivers and canals and ponds and reservoirs—that they may become blood.’ There will be blood throughout the land of Egypt, even in the vessels of wood and stone.”"
+   },
+   {
+    "ref": "EXO 10:7",
+    "primary": "Pharaoh’s officials asked him, “How long will this man be a snare to us? Let the people go, so that they may worship the LORD their God. Do you not yet realize that Egypt lies in ruins?”",
+    "secondary": "Pharaoh’s officials asked him, “How long will this man be a snare to us? Let the people go, so that they may worship the LORD their God. Do you not yet realize that Egypt is in ruins?”"
+   },
+   {
+    "ref": "EXO 12:13",
+    "primary": "The blood on the houses where you are staying will be a sign; when I see the blood, I will pass over you. No plague will fall on you to destroy you when I strike the land of Egypt.",
+    "secondary": "The blood on the houses where you are staying will distinguish them; when I see the blood, I will pass over you. No plague will fall on you to destroy you when I strike the land of Egypt."
+   },
+   {
+    "ref": "EXO 16:2",
+    "primary": "And there in the desert the whole congregation of Israel grumbled against Moses and Aaron.",
+    "secondary": "And there in the desert they all grumbled against Moses and Aaron."
+   },
+   {
+    "ref": "EXO 24:6",
+    "primary": "Moses took half of the blood and put it in bowls, and the other half he splattered on the altar.",
+    "secondary": "Moses took half of the blood and put it in bowls, and the other half he sprinkled on the altar."
+   },
+   {
+    "ref": "EXO 24:8",
+    "primary": "So Moses took the blood, splattered it on the people, and said, “This is the blood of the covenant that the LORD has made with you in accordance with all these words.”",
+    "secondary": "So Moses took the blood, sprinkled it on the people, and said, “This is the blood of the covenant that the LORD has made with you in accordance with all these words.”"
+   },
+   {
+    "ref": "EXO 26:37",
+    "primary": "Make five posts of acacia wood for the curtain, overlay them with gold, use hooks of gold, and cast five bronze bases for them.’’",
+    "secondary": "Make five posts of acacia wood for the curtain, overlay them with gold hooks, and cast five bronze bases for them."
+   },
+   {
+    "ref": "EXO 29:16",
+    "primary": "You are to slaughter the ram, take its blood, and splatter it on all sides of the altar.",
+    "secondary": "You are to slaughter the ram, take its blood, and sprinkle it on all sides of the altar."
+   },
+   {
+    "ref": "EXO 29:18",
+    "primary": "Then burn the entire ram on the altar; it is a burnt offering to the LORD, a pleasing aroma, a food offering to the LORD.",
+    "secondary": "Then burn the entire ram on the altar; it is a burnt offering to the LORD, a pleasing aroma, an offering made by fire to the LORD."
+   },
+   {
+    "ref": "EXO 29:20",
+    "primary": "Slaughter the ram, take some of its blood, and put it on the right earlobes of Aaron and his sons, on the thumbs of their right hands, and on the big toes of their right feet. Splatter the remaining blood on all sides of the altar.",
+    "secondary": "Slaughter the ram, take some of its blood, and put it on the right earlobes of Aaron and his sons, on the thumbs of their right hands, and on the big toes of their right feet. Sprinkle the remaining blood on all sides of the altar."
+   },
+   {
+    "ref": "EXO 29:25",
+    "primary": "Then take them from their hands and burn them on the altar atop the burnt offering as a pleasing aroma before the LORD; it is a food offering to the LORD.",
+    "secondary": "Then take them from their hands and burn them on the altar atop the burnt offering as a pleasing aroma before the LORD; it is an offering made by fire to the LORD."
+   },
+   {
+    "ref": "EXO 29:41",
+    "primary": "And offer the second lamb at twilight with the same grain offering and drink offering as in the morning, as a pleasing aroma, a food offering to the LORD.",
+    "secondary": "And offer the second lamb at twilight with the same grain offering and drink offering as in the morning, as a pleasing aroma, an offering made by fire to the LORD."
+   },
+   {
+    "ref": "EXO 30:20",
+    "primary": "Whenever they enter the Tent of Meeting or approach the altar to minister by presenting a food offering to the LORD, they must wash with water so that they will not die.",
+    "secondary": "Whenever they enter the Tent of Meeting or approach the altar to minister by presenting an offering made by fire to the LORD, they must wash with water so that they will not die."
+   },
+   {
+    "ref": "EXO 33:4",
+    "primary": "When the people heard this bad news, they went into mourning, and no one put on any of his jewelry.",
+    "secondary": "When the people heard these bad tidings, they went into mourning, and no one put on any of his jewelry."
+   },
+   {
+    "ref": "LEV 1:3",
+    "primary": "If his offering is a burnt offering from the herd, he is to present an unblemished male. He must bring it to the entrance to the Tent of Meeting for its acceptance before the LORD.",
+    "secondary": "If one’s offering is a burnt offering from the herd, he is to present an unblemished male. He must bring it to the entrance to the Tent of Meeting for its acceptance before the LORD."
+   },
+   {
+    "ref": "LEV 1:5",
+    "primary": "And he shall slaughter the young bull before the LORD, and Aaron’s sons the priests are to present the blood and splatter it on all sides of the altar at the entrance to the Tent of Meeting.",
+    "secondary": "And he shall slaughter the young bull before the LORD, and Aaron’s sons the priests are to present the blood and sprinkle it on all sides of the altar at the entrance to the Tent of Meeting."
+   },
+   {
+    "ref": "LEV 1:9",
+    "primary": "The entrails and legs must be washed with water, and the priest shall burn all of it on the altar as a burnt offering, a food offering, a pleasing aroma to the LORD.",
+    "secondary": "The entrails and legs must be washed with water, and the priest shall burn all of it on the altar as a burnt offering, an offering made by fire, a pleasing aroma to the LORD."
+   },
+   {
+    "ref": "LEV 1:11",
+    "primary": "He shall slaughter it on the north side of the altar before the LORD, and Aaron’s sons the priests are to splatter its blood against the altar on all sides.",
+    "secondary": "He shall slaughter it on the north side of the altar before the LORD, and Aaron’s sons the priests are to sprinkle its blood against the altar on all sides."
+   },
+   {
+    "ref": "LEV 1:13",
+    "primary": "The entrails and legs must be washed with water, and the priest shall present all of it and burn it on the altar; it is a burnt offering, a food offering, a pleasing aroma to the LORD.",
+    "secondary": "The entrails and legs must be washed with water, and the priest shall bring all of it and burn it on the altar; it is a burnt offering, an offering made by fire, a pleasing aroma to the LORD."
+   },
+   {
+    "ref": "LEV 1:17",
+    "primary": "He shall tear it open by its wings, without dividing the bird completely. And the priest is to burn it on the altar atop the burning wood. It is a burnt offering, a food offering, a pleasing aroma to the LORD.’’",
+    "secondary": "He shall tear it open by its wings, without dividing the bird completely. And the priest is to burn it on the altar atop the burning wood. It is a burnt offering, an offering made by fire, a pleasing aroma to the LORD."
+   },
+   {
+    "ref": "LEV 2:2",
+    "primary": "and bring it to Aaron’s sons the priests. The priest shall take a handful of the flour and oil, together with all the frankincense, and burn this as a memorial portion on the altar, a food offering, a pleasing aroma to the LORD.",
+    "secondary": "and bring it to Aaron’s sons the priests. The priest shall take a handful of the flour and oil, together with all the frankincense, and burn this as a memorial portion on the altar, an offering made by fire, a pleasing aroma to the LORD."
+   },
+   {
+    "ref": "LEV 2:3",
+    "primary": "The remainder of the grain offering shall belong to Aaron and his sons; it is a most holy part of the food offerings to the LORD.",
+    "secondary": "The remainder of the grain offering shall belong to Aaron and his sons; it is a most holy part of the offerings made by fire to the LORD."
+   },
+   {
+    "ref": "LEV 2:9",
+    "primary": "The priest is to remove the memorial portion from the grain offering and burn it on the altar as a food offering, a pleasing aroma to the LORD.",
+    "secondary": "The priest is to remove the memorial portion from the grain offering and burn it on the altar as an offering made by fire, a pleasing aroma to the LORD."
+   },
+   {
+    "ref": "LEV 2:10",
+    "primary": "But the remainder of the grain offering shall belong to Aaron and his sons; it is a most holy part of the food offerings to the LORD.",
+    "secondary": "But the remainder of the grain offering shall belong to Aaron and his sons; it is a most holy part of the offerings made by fire to the LORD."
+   },
+   {
+    "ref": "LEV 2:11",
+    "primary": "No grain offering that you present to the LORD may be made with leaven, for you are not to burn any leaven or honey as a food offering to the LORD.",
+    "secondary": "No grain offering that you present to the LORD may be made with leaven, for you are not to burn any leaven or honey as an offering made by fire to the LORD."
+   },
+   {
+    "ref": "LEV 2:12",
+    "primary": "You may bring them to the LORD as an offering of firstfruits, but they must not go up on the altar as a pleasing aroma.",
+    "secondary": "You may bring them to the LORD as an offering of firstfruits, but they are not to be offered on the altar as a pleasing aroma."
+   },
+   {
+    "ref": "LEV 2:16",
+    "primary": "The priest shall then burn the memorial portion of the crushed grain and the oil, together with all its frankincense, as a food offering to the LORD.’’",
+    "secondary": "The priest shall then burn the memorial portion of the crushed grain and the oil, together with all its frankincense, as an offering made by fire to the LORD."
+   },
+   {
+    "ref": "LEV 3:2",
+    "primary": "He is to lay his hand on the head of the offering and slaughter it at the entrance to the Tent of Meeting. Then Aaron’s sons the priests shall splatter the blood on all sides of the altar.",
+    "secondary": "He is to lay his hand on the head of the offering and slaughter it at the entrance to the Tent of Meeting. Then Aaron’s sons the priests shall sprinkle the blood on all sides of the altar."
+   },
+   {
+    "ref": "LEV 3:3",
+    "primary": "From the peace offering he is to bring a food offering to the LORD: the fat that covers the entrails, all the fat that is on them,",
+    "secondary": "From the peace offering he is to bring an offering made by fire to the LORD: the fat that covers the entrails, all the fat that is on them,"
+   },
+   {
+    "ref": "LEV 3:5",
+    "primary": "Then Aaron’s sons are to burn it on the altar atop the burnt offering that is on the burning wood, as a food offering, a pleasing aroma to the LORD.",
+    "secondary": "Then Aaron’s sons are to burn it on the altar atop the burnt offering that is on the burning wood, as an offering made by fire, a pleasing aroma to the LORD."
+   },
+   {
+    "ref": "LEV 3:8",
+    "primary": "He is to lay his hand on the head of his offering and slaughter it in front of the Tent of Meeting. Then Aaron’s sons shall splatter its blood on all sides of the altar.",
+    "secondary": "He is to lay his hand on the head of his offering and slaughter it in front of the Tent of Meeting. Then Aaron’s sons shall sprinkle its blood on all sides of the altar."
+   },
+   {
+    "ref": "LEV 3:9",
+    "primary": "And from the peace offering he shall bring a food offering to the LORD consisting of its fat: the entire fat tail cut off close to the backbone, the fat that covers the entrails, all the fat that is on them,",
+    "secondary": "And from the peace offering he shall bring an offering made by fire to the LORD consisting of its fat: the entire fat tail cut off close to the backbone, the fat that covers the entrails, all the fat that is on them,"
+   },
+   {
+    "ref": "LEV 3:11",
+    "primary": "Then the priest is to burn them on the altar as food, a food offering to the LORD.",
+    "secondary": "Then the priest is to burn them on the altar as food, an offering made by fire to the LORD."
+   },
+   {
+    "ref": "LEV 3:13",
+    "primary": "He must lay his hand on its head and slaughter it in front of the Tent of Meeting. Then Aaron’s sons shall splatter its blood on all sides of the altar.",
+    "secondary": "He must lay his hand on its head and slaughter it in front of the Tent of Meeting. Then Aaron’s sons shall sprinkle its blood on all sides of the altar."
+   },
+   {
+    "ref": "LEV 3:14",
+    "primary": "And from his offering he shall present a food offering to the LORD: the fat that covers the entrails, all the fat that is on them,",
+    "secondary": "And from his offering he shall present an offering made by fire to the LORD: the fat that covers the entrails, all the fat that is on them,"
+   },
+   {
+    "ref": "LEV 3:16",
+    "primary": "Then the priest is to burn the food on the altar as a food offering, a pleasing aroma. All the fat is the LORD’s.",
+    "secondary": "Then the priest is to burn the food on the altar as an offering made by fire, a pleasing aroma. All the fat is the LORD’s."
+   },
+   {
+    "ref": "LEV 4:35",
+    "primary": "And he shall remove all the fat, just as the fat of the lamb is removed from the peace offerings, and he shall burn it on the altar along with the food offerings to the LORD. In this way the priest will make atonement for him for the sin he has committed, and he will be forgiven.’’",
+    "secondary": "And he shall remove all the fat, just as the fat of the lamb is removed from the peace offerings, and he shall burn it on the altar along with the offerings made by fire to the LORD. In this way the priest will make atonement for him for the sin he has committed, and he will be forgiven."
+   },
+   {
+    "ref": "LEV 5:12",
+    "primary": "He is to bring it to the priest, who shall take a handful from it as a memorial portion and burn it on the altar atop the food offerings to the LORD; it is a sin offering.",
+    "secondary": "He is to bring it to the priest, who shall take a handful from it as a memorial portion and burn it on the altar atop the offerings made by fire to the LORD; it is a sin offering."
+   },
+   {
+    "ref": "LEV 6:17",
+    "primary": "It must not be baked with leaven; I have assigned it as their portion of My food offerings. It is most holy, like the sin offering and the guilt offering.",
+    "secondary": "It must not be baked with leaven; I have assigned it as their portion of My offerings made by fire. It is most holy, like the sin offering and the guilt offering."
+   },
+   {
+    "ref": "LEV 6:18",
+    "primary": "Any male among the sons of Aaron may eat it. This is a permanent portion from the food offerings to the LORD for the generations to come. Anything that touches them will become holy.”",
+    "secondary": "Any male among the sons of Aaron may eat it. This is a permanent portion from the offerings made by fire to the LORD for the generations to come. Anything that touches them will become holy.”"
+   },
+   {
+    "ref": "LEV 7:2",
+    "primary": "The guilt offering must be slaughtered in the place where the burnt offering is slaughtered, and the priest shall splatter its blood on all sides of the altar.",
+    "secondary": "The guilt offering must be slaughtered in the place where the burnt offering is slaughtered, and the priest shall sprinkle its blood on all sides of the altar."
+   },
+   {
+    "ref": "LEV 7:5",
+    "primary": "The priest shall burn them on the altar as a food offering to the LORD; it is a guilt offering.",
+    "secondary": "The priest shall burn them on the altar as an offering made by fire to the LORD; it is a guilt offering."
+   },
+   {
+    "ref": "LEV 7:25",
+    "primary": "If anyone eats the fat of an animal from which a food offering may be presented to the LORD, the one who eats it must be cut off from his people.",
+    "secondary": "If anyone eats the fat of an animal from which an offering made by fire may be presented to the LORD, the one who eats it must be cut off from his people."
+   },
+   {
+    "ref": "LEV 7:30",
+    "primary": "With his own hands he is to bring the food offerings to the LORD; he shall bring the fat, together with the breast, and wave the breast as a wave offering before the LORD.",
+    "secondary": "With his own hands he is to bring the offerings made by fire to the LORD; he shall bring the fat, together with the breast, and wave the breast as a wave offering before the LORD."
+   },
+   {
+    "ref": "LEV 7:35",
+    "primary": "This is the portion of the food offerings to the LORD for Aaron and his sons since the day they were presented to serve the LORD as priests.",
+    "secondary": "This is the portion of the offerings made by fire to the LORD for Aaron and his sons since the day they were presented to serve the LORD as priests."
+   },
+   {
+    "ref": "LEV 8:19",
+    "primary": "Moses slaughtered the ram and splattered the blood on all sides of the altar.",
+    "secondary": "Moses slaughtered the ram and sprinkled the blood on all sides of the altar."
+   },
+   {
+    "ref": "LEV 8:21",
+    "primary": "He washed the entrails and legs with water and burned the entire ram on the altar as a burnt offering, a pleasing aroma, a food offering to the LORD, just as the LORD had commanded Moses.",
+    "secondary": "He washed the entrails and legs with water and burned the entire ram on the altar as a burnt offering, a pleasing aroma, an offering made by fire to the LORD, just as the LORD had commanded Moses."
+   }
+  ]
+ }
+}

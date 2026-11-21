@@ -1,0 +1,76 @@
+name: Build Scripture Foundations
+
+on:
+  push:
+    branches: [main]
+    paths: ['scripture-foundations/**', '.github/workflows/scripture-foundations.yml']
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: scripture-foundations
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: scripture-foundations/package-lock.json
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Install and test (verifies Scripture data and curriculum)
+        run: |
+          npm ci
+          npm test
+
+      - name: Build website
+        run: npm run build
+
+      - name: Upload website (extract into public_html/scripture)
+        uses: actions/upload-artifact@v4
+        with:
+          name: scripture-web
+          path: scripture-foundations/dist/
+          include-hidden-files: true
+
+      - name: Build debug APK
+        run: |
+          npx cap sync android
+          cd android && chmod +x gradlew && ./gradlew assembleDebug
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: scripture-foundations-debug-apk
+          path: scripture-foundations/android/app/build/outputs/apk/debug/app-debug.apk
+
+      # Optional signed bundle for Google Play. Add repository secrets:
+      # ANDROID_KEYSTORE_BASE64, ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_ALIAS, ANDROID_KEY_PASSWORD
+      - name: Build signed release bundle (AAB)
+        if: ${{ env.KEYSTORE != '' }}
+        working-directory: scripture-foundations/android
+        run: |
+          echo "$KEYSTORE" | base64 -d > release.keystore
+          ./gradlew bundleRelease \
+            -Pandroid.injected.signing.store.file=$PWD/release.keystore \
+            -Pandroid.injected.signing.store.password='${{ secrets.ANDROID_KEYSTORE_PASSWORD }}' \
+            -Pandroid.injected.signing.key.alias='${{ secrets.ANDROID_KEY_ALIAS }}' \
+            -Pandroid.injected.signing.key.password='${{ secrets.ANDROID_KEY_PASSWORD }}'
+
+      - uses: actions/upload-artifact@v4
+        if: ${{ env.KEYSTORE != '' }}
+        with:
+          name: scripture-foundations-release-aab
+          path: scripture-foundations/android/app/build/outputs/bundle/release/app-release.aab

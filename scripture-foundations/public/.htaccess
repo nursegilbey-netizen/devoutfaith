@@ -1,0 +1,37 @@
+# Scripture Foundations — web app config for Apache / LiteSpeed (Hostinger).
+# Upload this folder's contents to e.g. public_html/scripture/  →  https://devoutfaith.com/scripture/
+
+# Correct types
+AddType application/manifest+json .webmanifest
+AddType application/json .json
+AddType font/woff2 .woff2
+
+# Compress the large Scripture JSON files (~4 MB each → ~1.2 MB over the wire)
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json application/manifest+json image/svg+xml
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Hashed build assets never change: cache for a year
+  <FilesMatch "\.(js|css|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  # Bible data: cache a week (service worker keeps an offline copy)
+  <FilesMatch "\.json$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+  # Always check for a new app shell and service worker
+  <FilesMatch "^(index\.html|sw\.js|manifest\.webmanifest)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# This is a real folder: keep WordPress from rewriting requests inside it
+<IfModule mod_rewrite.c>
+  RewriteEngine Off
+</IfModule>
+
+DirectoryIndex index.html
+Options -Indexes
