@@ -29,8 +29,6 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - uses: android-actions/setup-android@v3
-
       - name: Install and test (verifies Scripture data and curriculum)
         run: |
           npm ci
@@ -46,6 +44,7 @@ jobs:
           path: scripture-foundations/dist/
           include-hidden-files: true
 
+      # The ubuntu-latest runner ships with the Android SDK (ANDROID_HOME); Gradle fetches anything else it needs.
       - name: Build debug APK
         run: |
           npx cap sync android
