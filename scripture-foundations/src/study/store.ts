@@ -78,7 +78,7 @@ const DEFAULT_SETTINGS: Settings = {
   dailyReviewCap: 30,
   dailyLessonGoal: 1,
   fontScale: 1,
-  theme: 'system',
+  theme: 'light',
   showVerseNumbers: true,
 };
 
