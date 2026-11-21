@@ -430,7 +430,9 @@ export const TOPICS: Topic[] = [
       x('Isaiah 58:13–14', 'Sabbath', 'support'),
       x('Luke 4:16', 'Jesus’ custom', 'support'),
       x('Acts 13:42–44', 'synagogue', 'background'),
-      c('Colossians 2:16–17', 'festival/Sabbaths', 'alternate'),
+      c('Colossians 2:16–17', 'festival/Sabbaths', 'alternate', {
+        note: 'Seventh-day Sabbath keepers read «sabbath days» here as the ceremonial (annual) sabbaths of Israel’s festival calendar, such as the Day of Atonement (Leviticus 23:32). Paul pairs them with meat, drink, holydays and new moons as «a shadow of things to come», types fulfilled in Christ. The weekly Sabbath was given at creation before sin (Genesis 2:2–3) and placed in the Decalogue, so on this reading it is not a shadow. Others read “holyday, new moon, sabbath” as yearly–monthly–weekly (compare Ezekiel 45:17) and include the weekly Sabbath.',
+      }),
       c('Romans 14:5–6', 'days', 'alternate'),
       c('Hebrews 4:1–11', 'rest', 'alternate'),
     ],

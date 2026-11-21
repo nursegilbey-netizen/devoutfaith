@@ -117,7 +117,7 @@ describe('Content integrity', () => {
 
   it('every KJV phrase quoted in editorial prose («…») is real KJV wording', () => {
     const corpus = ' ' + bible.b.flat().flat().map((t) => t.toLowerCase().replace(/[^a-z' ]/g, ' ').replace(/\s+/g, ' ')).join(' | ') + ' ';
-    const prose = JSON.stringify([LESSONS, DOCTRINES]);
+    const prose = JSON.stringify([LESSONS, DOCTRINES, TOPICS]);
     const quotes = [...prose.matchAll(/«([^»]+)»/g)].map((m) => m[1]);
     expect(quotes.length).toBeGreaterThan(10);
     const missing = quotes.filter((q) => {

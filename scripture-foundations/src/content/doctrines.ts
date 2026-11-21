@@ -150,7 +150,7 @@ export const DOCTRINES: Doctrine[] = [
       { ref: 'Deuteronomy 5:12–15', statement: 'Keep the sabbath; grounded in deliverance from Egypt.' },
       { ref: 'Mark 2:27–28', statement: 'The sabbath was made for man; the Son of man is Lord of the sabbath.' },
       { ref: 'Luke 4:16', statement: 'Jesus went to the synagogue on the sabbath as his custom was.' },
-      { ref: 'Colossians 2:16–17', statement: 'Let no one judge you regarding holy days or sabbaths, a shadow of things to come.' },
+      { ref: 'Colossians 2:16–17', statement: 'Let no one judge you in meat, drink, a holyday, new moon, or sabbath days — these are a shadow of things to come; the body is of Christ.' },
       { ref: 'Hebrews 4:9', statement: 'There remains a rest for the people of God.' },
     ],
     inferred: [
@@ -160,7 +160,7 @@ export const DOCTRINES: Doctrine[] = [
       {
         issue: 'Which day, and is a weekly day binding?',
         perspectives: [
-          { tradition: 'Seventh-day Sabbath (Seventh-day Adventist, Seventh Day Baptist)', lens: 'adventist', summary: 'The seventh-day Sabbath is a creation ordinance in the Decalogue, kept by Jesus; Colossians 2:16 refers to ceremonial sabbaths and feasts.', refs: ['Genesis 2:2–3', 'Exodus 20:8–11', 'Luke 4:16', 'Isaiah 58:13–14'] },
+          { tradition: 'Seventh-day Sabbath (Seventh-day Adventist, Seventh Day Baptist)', lens: 'adventist', summary: 'The seventh-day Sabbath is a creation ordinance in the Decalogue, kept by Jesus. The “sabbath days” of Colossians 2:16 are the ceremonial (annual) sabbaths tied to Israel’s feasts and offerings, which were shadows pointing to Christ, not the weekly Sabbath rooted in creation.', refs: ['Genesis 2:2–3', 'Exodus 20:8–11', 'Luke 4:16', 'Leviticus 23:24–32', 'Colossians 2:16–17'] },
           { tradition: 'Lord’s Day (Roman Catholic, Eastern Orthodox)', lens: 'catholic', summary: 'Sunday, the day of the resurrection, is the Christian day of worship that fulfills the Sabbath’s meaning.', refs: ['Acts 20:7', '1 Corinthians 16:2', 'Revelation 1:10'] },
           { tradition: 'Christian Sabbath on Sunday (Reformed / Westminster tradition)', lens: 'reformed', summary: 'The Sabbath principle is moral and perpetual, with the day changed to the first day at the resurrection.', refs: ['Exodus 20:8–11', 'Acts 20:7'] },
           { tradition: 'Fulfilled in Christ (many Evangelicals)', lens: 'evangelical', summary: 'Sabbath points to rest in Christ; no particular day is binding, though weekly worship and rest are wise.', refs: ['Colossians 2:16–17', 'Romans 14:5–6', 'Hebrews 4:1–11'] },
@@ -168,7 +168,7 @@ export const DOCTRINES: Doctrine[] = [
       },
     ],
     challenges: [
-      { ref: 'Colossians 2:16–17', why: 'Must be discussed explicitly by seventh-day views.' },
+      { ref: 'Colossians 2:16–17', why: 'Which sabbaths? Seventh-day view: the ceremonial (annual) sabbaths of the feasts (Leviticus 23), listed with meat, drink, holydays and new moons as shadows fulfilled in Christ; the weekly Sabbath predates sin (Genesis 2:2–3) and is not a shadow. Other views: the holyday–new moon–sabbath sequence is yearly–monthly–weekly (compare Ezekiel 45:17; Hosea 2:11), so the weekly Sabbath is included.' },
       { ref: 'Romans 14:5–6', why: 'One esteems one day above another — which days are in view?' },
       { ref: 'Hebrews 4:1–11', why: 'Sabbath rest and entering God’s rest — weekly, spiritual, or both?' },
       { ref: 'Luke 23:56', why: 'Followers rested on the sabbath after the crucifixion — must be discussed by Sunday views.' },
